@@ -8,36 +8,27 @@ header {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    justify-content: right;
 }
 
 .header-info {
     padding: 230px;
+    text-align: right;
+    width: 550px;
 }
 
 .header-title {
     color: rgb(255, 255, 255);
-    font-size: 65px;
+    font-size: 75px;
     font-weight: 700;
-    text-align: right;
-    width: 550px;
-    position: absolute;
-    left: 845px;
-    right: 230px;
-    top: 216px;
-    bottom: 2785px;
 }
 
 .header-description {
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    text-align: right;
-    width: 550px;
-    position: absolute;
-    left: 876px;
-    right: 230px;
-    top: 468px;
-    bottom: 2683px;
+    margin-top: 20px;
 }
 
 .btn-header {
@@ -47,12 +38,126 @@ header {
     border-radius: 5px;
     background: rgb(255, 255, 255);
     padding: 15px 25px;
-    margin: 30px;
+    margin: 30px 0 30px 0;
     border: 0;
-    text-align: right;
-    position: absolute;
-    left: 1210px;
-    right: 230px;
-    top: 578px;
-    bottom: -578px;
 }
+
+/* header styles ended */
+
+/* my failures section styles started */
+
+main {
+    margin: 130px 230px;
+}
+
+.failure {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.failure-img {
+    width: 50%;
+}
+
+.failure-info {
+    width: 50%;
+}
+
+.failure-title {
+    color: rgb(21, 20, 20);
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.failure-description {
+    color: rgb(68, 67, 67);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 420px;
+    margin-bottom: 20px;
+}
+
+.failure-list {
+    font-size: 18px;
+}
+
+/* my failures section styles ended */
+
+/* my plans section style started */
+
+.plans {
+    margin: 130px 0;
+}
+
+.plans-heading {
+    color: rgb(21, 20, 20);
+    font-family: Work Sans;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.plans-card-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.plans-card img {
+    position: center;
+}
+
+.plans-title {
+    color: rgb(21, 20, 20);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.plans-description {
+    color: rgb(115, 114, 114);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* my plans section style ended */
+
+/* gradient banner styles started */
+
+.grad-banner{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 150px;
+}
+.grad{
+    background-image: url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 75px;
+}
+
+.grad-heading {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.btn-grad {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 95, 172);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 15px 25px;
+    margin: 30px 0 30px 0;
+    border: 0;
+}
+
+
+/* gradient banner styles started */
